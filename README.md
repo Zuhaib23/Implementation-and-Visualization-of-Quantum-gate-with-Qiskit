@@ -76,15 +76,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Feel free to fork, star, and submit pull requests! Suggestions, bug fixes, and improvements are always welcome.
 
----
 
-**Made with ❤️ using Qiskit**
 
-```
-
----
-
-Let me know if you'd like the actual `.py` implementation files for each gate or if you need a `requirements.txt` as well.
-```
 
 
