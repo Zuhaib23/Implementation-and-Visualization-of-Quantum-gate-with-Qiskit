@@ -37,41 +37,6 @@ pip install qiskit matplotlib
 
 --
 
-Here's a complete and professional `README.md` for your GitHub repository, documenting the implementation and visualization of basic quantum gates using Qiskit:
-
----
-
-````markdown
-# 🧠 Quantum Gates Visualization with Qiskit
-
-This repository contains Python implementations and visualizations of **basic quantum logic gates** using [Qiskit](https://qiskit.org/). The goal is to demonstrate how each gate works on qubits and provide circuit diagrams and state vector outputs for better understanding.
-
-## 🧪 Gates Implemented
-
-Below are the quantum gates implemented and visualized in this project:
-
-| #  | Gate Name                      | Description                                                |
-|----|-------------------------------|------------------------------------------------------------|
-| 1  | Pauli-X Gate (`X`)            | Bit-flip gate, analogous to classical NOT gate             |
-| 2  | Pauli-Y Gate (`Y`)            | Bit and phase flip gate                                    |
-| 3  | Pauli-Z Gate (`Z`)            | Phase-flip gate                                            |
-| 4  | Rz / Rφ Gate (`Rz(θ)`)        | Rotates around the Z-axis by θ radians                    |
-| 5  | Hadamard Gate (`H`)           | Creates superposition from basis state                    |
-| 6  | Controlled-Z Gate (`CZ`)      | Applies Z gate only when control qubit is |1⟩              |
-| 7  | Controlled-Y Gate (`CY`)      | Applies Y gate only when control qubit is |1⟩              |
-| 8  | Controlled-X Gate (`CNOT`)    | Flips target qubit if control qubit is |1⟩                |
-| 9  | CNOT Equivalence Circuit      | CNOT gate built using H and CZ                             |
-| 10 | SWAP Gate                     | Swaps the states of two qubits                             |
-| 11 | Toffoli Gate (`CCX`)          | Controlled-controlled-X gate (2 controls, 1 target)        |
-| 12 | X Gate using H and Z          | Constructs an X gate using Hadamard and Z gates           |
-
-## 🧰 Requirements
-
-Install the required packages using pip:
-
-```bash
-pip install qiskit matplotlib
-````
 
 
 ## 🖼️ Sample Visualization
