@@ -73,31 +73,6 @@ Install the required packages using pip:
 pip install qiskit matplotlib
 ````
 
-## 📂 Project Structure
-
-```
-quantum-gates-qiskit/
-│
-├── gates/
-│   ├── pauli_x.py
-│   ├── pauli_y.py
-│   ├── pauli_z.py
-│   ├── rz_gate.py
-│   ├── hadamard.py
-│   ├── cz_gate.py
-│   ├── cy_gate.py
-│   ├── cnot_gate.py
-│   ├── cnot_equivalence.py
-│   ├── swap_gate.py
-│   ├── toffoli_gate.py
-│   └── x_from_hz.py
-│
-├── utils/
-│   ├── visualize.py         # Contains helper functions to plot circuit and statevector
-│
-├── README.md
-└── requirements.txt
-```
 
 ## 🖼️ Sample Visualization
 
